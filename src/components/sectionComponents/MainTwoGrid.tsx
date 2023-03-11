@@ -13,11 +13,15 @@ export default function MainTwoGrid(props: {
 }) {
   return (
     <>
-      <section className="grid grid-cols-5 ">
+      <section className="grid md:grid-cols-5 ">
         <div
-          className={` p-24 flex flex-col items-start justify-center
+          className={` flex flex-col items-start justify-center p-10 md:p-20 lg:p-24
             ${props.dark && "bg-black text-white"}
-            ${!props.invert ? "col-span-2" : "col-span-2 order-2"}
+            ${
+              !props.invert
+                ? "order-2 md:order-none md:col-span-3 lg:col-span-2"
+                : " order-2 md:order-2 md:col-span-3 lg:col-span-2"
+            }
         `}
         >
           {props.hero ? (
@@ -26,7 +30,7 @@ export default function MainTwoGrid(props: {
             <H2 large text={props.title} />
           )}
 
-          <p className="text-lg font-brand">{props.text}</p>
+          <p className="font-brand text-lg">{props.text}</p>
           {props.dark ? (
             <ArrowButton text={props.buttonText} />
           ) : (
@@ -35,8 +39,10 @@ export default function MainTwoGrid(props: {
         </div>
         <img
           className={`${
-            !props.invert ? "col-span-3" : "col-span-3 order-1"
-          } w-full h-full object-cover`}
+            !props.invert
+              ? "order-1 md:order-none md:col-span-2 lg:col-span-3"
+              : "order-1 md:order-1 md:col-span-2 lg:col-span-3"
+          } h-full w-full object-cover`}
           src={props.image}
           alt=""
         />

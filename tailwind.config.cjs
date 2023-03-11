@@ -8,6 +8,7 @@ module.exports = {
       },
       minHeight: {
         500: "50vh",
+        750: "75vh",
       },
       brightness: {
         full: "100",

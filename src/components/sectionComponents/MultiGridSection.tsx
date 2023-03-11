@@ -3,13 +3,17 @@ import { useState } from "react";
 import ImageCard from "../cardComponents/ImageCard";
 import data from "../../storyData/stories.json";
 
-export default function MultiGridSection(props: { itemAmount: number }) {
+export default function MultiGridSection(props: {
+  itemAmount: number;
+  startFrom: number;
+}) {
   const itemAmount = props.itemAmount;
+  const startInt = props.startFrom;
 
   return (
     <>
-      <div className="grid grid-cols-4">
-        {data.slice(0, itemAmount).map((item) => {
+      <div className="grid md:grid-cols-2 lg:grid-cols-4">
+        {data.slice(startInt, itemAmount).map((item) => {
           return (
             <>
               <ImageCard
