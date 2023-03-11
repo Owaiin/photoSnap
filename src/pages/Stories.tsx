@@ -7,7 +7,7 @@ export default function Stories() {
     <>
       <FeaturedSection />
       <main>
-        <MultiGridSection startFrom={1} itemAmount={13} />
+        <MultiGridSection startFrom={1} itemEnd={13} />
       </main>
     </>
   );
