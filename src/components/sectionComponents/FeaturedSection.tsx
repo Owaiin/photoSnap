@@ -15,7 +15,6 @@ export default function FeaturedSection() {
 
   useEffect(() => {
     getData();
-    setFeaturedItem(data.filter((story: any) => story.featured));
   }, []);
 
   // console.log(data);
@@ -26,7 +25,7 @@ export default function FeaturedSection() {
     <>
       <header className="relative flex min-h-screen flex-col justify-center p-10 md:min-h-750">
         <img
-          src={data[0].image}
+          src={data && data[0].image}
           alt=""
           className="absolute top-0 left-0 h-full w-full object-cover object-center"
         />
