@@ -1,15 +1,32 @@
 import Container from "../Container";
-import data from "../../../public/storyData/stories.json";
+import { useState, useEffect } from "react";
+// import data from "../../../public/storyData/stories.json";
 import H1 from "../H1";
 import ArrowButton from "../ArrowButton";
 export default function FeaturedSection() {
-  const featuredItem = data.filter((story) => story.featured);
+  const [data, setData]: any = useState();
+  const [featuredItem, setFeaturedItem]: any = useState();
 
+  const getData = async () => {
+    const response = await fetch("storyData/stories.json");
+    const freshData = await response.json();
+    setData(freshData);
+  };
+
+  useEffect(() => {
+    getData();
+    setFeaturedItem(data.filter((story: any) => story.featured));
+  }, []);
+
+  // console.log(data);
+
+  // let featuredItem = data.filter((story: any) => story.featured);
+  // const featuredItem = data.filter((story: any) => story.featured)
   return (
     <>
       <header className="relative flex min-h-screen flex-col justify-center p-10 md:min-h-750">
         <img
-          src={featuredItem[0].image}
+          src={data[0].image}
           alt=""
           className="absolute top-0 left-0 h-full w-full object-cover object-center"
         />
@@ -27,7 +44,10 @@ export default function FeaturedSection() {
               fuga aliquid at, rerum, ratione dicta dignissimos corrupti? Ea
               sequi laborum hic a eius.
             </p>
-            <ArrowButton text="Read more" />
+            <ArrowButton
+              text="Read more"
+              onClick={() => console.log(data, "featured item" + featuredItem)}
+            />
           </div>
         </Container>
       </header>
