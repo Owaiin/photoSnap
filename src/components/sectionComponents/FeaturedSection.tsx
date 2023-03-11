@@ -1,5 +1,5 @@
 import Container from "../Container";
-import data from "../../storyData/stories.json";
+import data from "../../../public/storyData/stories.json";
 import H1 from "../H1";
 import ArrowButton from "../ArrowButton";
 export default function FeaturedSection() {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import ImageCard from "../cardComponents/ImageCard";
-import data from "../../storyData/stories.json";
+import data from "../../../public/storyData/stories.json";
 
 export default function MultiGridSection(props: {
   itemAmount: number;
