@@ -33,7 +33,7 @@ function Home() {
         text="Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it."
       />
       <section>
-        <MultiGridSection startFrom={1} itemAmount={5} />
+        <MultiGridSection itemEnd={5} startFrom={1} />
       </section>
       <section>
         <Container>

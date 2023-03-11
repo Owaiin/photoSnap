@@ -12,111 +12,111 @@
     "date": "April 16th 2020",
     "author": "John Appleseed",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/mountains.jpg"
+    "image": "/storyData/stories/desktop/mountains.jpg"
   },
   {
     "name": "Sunset Cityscapes",
     "date": "April 14th 2020",
     "author": "Benjamin Cruz",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/cityscapes.jpg"
+    "image": "/storyData/stories/desktop/cityscapes.jpg"
   },
   {
     "name": "18 Days Voyage",
     "date": "April 11th 2020",
     "author": "Alexei Borodin",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/18-days-voyage.jpg"
+    "image": "/storyData/stories/desktop/18-days-voyage.jpg"
   },
   {
     "name": "Architecturals",
     "date": "April 9th 2020",
     "author": "Samantha Brooke",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/architecturals.jpg"
+    "image": "/storyData/stories/desktop/architecturals.jpg"
   },
   {
     "name": "World Tour 2019",
     "date": "April 7th 2020",
     "author": "Timothy Wagner",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/world-tour.jpg"
+    "image": "/storyData/stories/desktop/world-tour.jpg"
   },
   {
     "name": "Unforeseen Corners",
     "date": "April 3rd 2020",
     "author": "William Malcolm",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/unforeseen-corners.jpg"
+    "image": "/storyData/stories/desktop/unforeseen-corners.jpg"
   },
   {
     "name": "King on Africa: Part II",
     "date": "March 29th 2020",
     "author": "Tim Hillenburg",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/king-on-africa.jpg"
+    "image": "/storyData/stories/desktop/king-on-africa.jpg"
   },
   {
     "name": "The Trip to Nowhere",
     "date": "March 21st 2020",
     "author": "Felicia Rourke",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/trip-to-nowhere.jpg"
+    "image": "/storyData/stories/desktop/trip-to-nowhere.jpg"
   },
   {
     "name": "Rage of The Sea",
     "date": "March 19th 2020",
     "author": "Mohammed Abdul",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/rage-of-the-sea.jpg"
+    "image": "/storyData/stories/desktop/rage-of-the-sea.jpg"
   },
   {
     "name": "Running Free",
     "date": "March 16th 2020",
     "author": "Michelle",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/running-free.jpg"
+    "image": "/storyData/stories/desktop/running-free.jpg"
   },
   {
     "name": "Behind the Waves",
     "date": "March 11th 2020",
     "author": "Lamarr Wilson",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/behind-the-waves.jpg"
+    "image": "/storyData/stories/desktop/behind-the-waves.jpg"
   },
   {
     "name": "Calm Waters",
     "date": "March 9th 2020",
     "author": "Samantha Brooke",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/calm-waters.jpg"
+    "image": "/storyData/stories/desktop/calm-waters.jpg"
   },
   {
     "name": "The Milky Way",
     "date": "March 5th 2020",
     "author": "Benjamin Cruz",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/milky-way.jpg"
+    "image": "/storyData/stories/desktop/milky-way.jpg"
   },
   {
     "name": "Night at The Dark Forest",
     "date": "March 4th 2020",
     "author": "Mohammed Abdul",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/dark-forest.jpg"
+    "image": "/storyData/stories/desktop/dark-forest.jpg"
   },
   {
     "name": "Somwarpet’s Beauty",
     "date": "March 1st 2020",
     "author": "Michelle",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/somwarpet.jpg"
+    "image": "/storyData/stories/desktop/somwarpet.jpg"
   },
   {
     "name": "Land of Dreams",
     "date": "February 25th 2020",
     "author": "William Malcolm",
     "featured": false,
-    "image": "src/assets/images/stories/desktop/land-of-dreams.jpg"
+    "image": "/storyData/stories/desktop/land-of-dreams.jpg"
   }
 ]

@@ -1,6 +1,5 @@
 import Container from "../Container";
 import { useState, useEffect } from "react";
-// import data from "../../../public/storyData/stories.json";
 import H1 from "../H1";
 import ArrowButton from "../ArrowButton";
 export default function FeaturedSection() {
@@ -17,10 +16,6 @@ export default function FeaturedSection() {
     getData();
   }, []);
 
-  // console.log(data);
-
-  // let featuredItem = data.filter((story: any) => story.featured);
-  // const featuredItem = data.filter((story: any) => story.featured)
   return (
     <>
       <header className="relative flex min-h-screen flex-col justify-center p-10 md:min-h-750">
